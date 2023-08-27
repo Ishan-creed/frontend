@@ -162,7 +162,7 @@ const TableDetail = () => {
 
   const onSubmit = async () => {
     try {
-      await axios.post("http://localhost:5000/newUser", {
+      await axios.post("https://mybackend1-b509.onrender.com/newUser", {
         formData
       },
      );
