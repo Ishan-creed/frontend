@@ -105,6 +105,7 @@ const TableDetail = () => {
         zIndex: 1000,
         padding: "1rem",
         borderRadius: "10px",
+        textAlign:"center"
       },
       heading: {
         display: "flex",
